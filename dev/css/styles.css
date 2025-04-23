@@ -316,6 +316,13 @@ template {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --ghost: #f0faff;
+  --grey: #9090A7;
+  --nightblue: #060640;
+  --aqua: #00E5CC;
+  --snowdrop: #F9FDFF;
+  --lilywhite: #ECF9FF;
+  --jaguar: #000020;
 }
 
 /* ---------------- Font Sizing ---------------- */
