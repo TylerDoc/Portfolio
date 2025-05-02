@@ -391,26 +391,55 @@ textarea {
 #home {
   background-color: var(--lightgrey);
   padding: 56px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+@media (min-width: 576px) {
+  #home {
+    padding: 56px 24px;
+  }
+}
+@media (min-width: 768px) {
+  #home {
+    padding: 56px 24px;
+  }
+}
+@media (min-width: 992px) {
+  #home {
+    padding: 56px 24px;
+  }
+}
+@media (min-width: 1200px) {
+  #home {
+    padding: 56px 24px;
+  }
 }
 #home img {
   border-radius: 5%;
-  width: 100%;
+  width: 50%;
+}
+@media (min-width: 576px) {
+  #home img {
+    grid-area: home-img;
+    max-width: 50%;
+  }
 }
 @media (min-width: 768px) {
   #home img {
     grid-area: home-img;
+    max-width: 50%;
   }
 }
 @media (min-width: 992px) {
   #home img {
     grid-area: home-img;
+    max-width: 50%;
   }
 }
 @media (min-width: 1200px) {
   #home img {
     grid-area: home-img;
     max-width: 50%;
-    margin: 0 auto;
   }
 }
 
@@ -420,26 +449,55 @@ textarea {
 #about {
   background-color: var(--lightgrey);
   padding: 56px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+@media (min-width: 576px) {
+  #about {
+    padding: 56px 24px;
+  }
+}
+@media (min-width: 768px) {
+  #about {
+    padding: 56px 24px;
+  }
+}
+@media (min-width: 992px) {
+  #about {
+    padding: 56px 24px;
+  }
+}
+@media (min-width: 1200px) {
+  #about {
+    padding: 56px 24px;
+  }
 }
 #about img {
-  width: 100%;
   border-radius: 5%;
+  width: 50%;
+}
+@media (min-width: 576px) {
+  #about img {
+    grid-area: home-img;
+    max-width: 50%;
+  }
 }
 @media (min-width: 768px) {
   #about img {
     grid-area: home-img;
+    max-width: 50%;
   }
 }
 @media (min-width: 992px) {
   #about img {
     grid-area: home-img;
+    max-width: 50%;
   }
 }
 @media (min-width: 1200px) {
   #about img {
     grid-area: home-img;
     max-width: 50%;
-    margin: 0 auto;
   }
 }
 
@@ -449,6 +507,8 @@ textarea {
 #resume {
   background-color: var(--lightgrey);
   padding: 56px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 /* =============
@@ -457,6 +517,8 @@ textarea {
 #projects {
   background-color: var(--lightgrey);
   padding: 56px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 /* =============
@@ -465,6 +527,8 @@ textarea {
 #associations {
   background-color: var(--lightgrey);
   padding: 56px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 /* =============
@@ -473,6 +537,8 @@ textarea {
 #contact {
   background-color: var(--lightgrey);
   padding: 56px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 #contact .contact-list {
   list-style-type: none;

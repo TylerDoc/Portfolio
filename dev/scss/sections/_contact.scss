@@ -6,6 +6,8 @@
 #contact{
     background-color: var(--lightgrey);
     padding: 56px 24px;
+    font-size: helpers.rem-calc(14);
+    font-weight: 600;
 
 
     .contact-list{

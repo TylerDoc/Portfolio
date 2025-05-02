@@ -6,25 +6,54 @@
 #home{
     background-color: var(--lightgrey);
     padding: 56px 24px;
+    font-size: helpers.rem-calc(14);
+    font-weight: 600;
+
+    @include helpers.sm{
+        padding: 56px 24px;
+    }
+
+    @include helpers.md{
+        padding: 56px 24px;
+    }
+
+    @include helpers.lg{
+        padding: 56px 24px;
+    }
+
+    @include helpers.xl{
+        padding: 56px 24px;
+    }
+    
 
     img{
         border-radius: 5%;
-        width: 100%;
+        width: 50%;
+
+        @include helpers.sm{
+            grid-area: home-img;
+            max-width: 50%;
+            // padding: 200px 200px;
+        }
+        
 
         @include helpers.md{
             grid-area: home-img;
-        }    
+            max-width: 50%;
+            // padding: 200px 200px;
+        }   
+         
 
         @include helpers.lg{
             grid-area: home-img;
+            max-width: 50%;
         }
 
         @include helpers.xl{
             grid-area: home-img;
             max-width: 50%;
-            margin: 0 auto;
+            // margin: 0 auto;
         }   
-
     }
 
     // @include helpers.md{
