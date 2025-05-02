@@ -2,3 +2,13 @@
     contact
 ============= */
 @use "../helpers";
+
+#contact{
+    background-color: var(--lightgrey);
+    padding: 56px 24px;
+
+
+    .contact-list{
+        list-style-type: none;
+    }
+}

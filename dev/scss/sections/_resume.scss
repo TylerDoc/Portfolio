@@ -2,3 +2,8 @@
     resume
 ============= */
 @use "../helpers";
+
+#resume{
+    background-color: var(--lightgrey);
+    padding: 56px 24px;
+}

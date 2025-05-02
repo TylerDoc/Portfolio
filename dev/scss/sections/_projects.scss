@@ -2,3 +2,8 @@
     projects
 ============= */
 @use "../helpers";
+
+#projects{
+    background-color: var(--lightgrey);
+    padding: 56px 24px;
+}

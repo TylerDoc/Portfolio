@@ -5,5 +5,28 @@
 
 #about{
     background-color: var(--lightgrey);
+    padding: 56px 24px;
+
+    
+    
+
+    img{
+        width: 100%;
+        border-radius: 5%;
+
+        @include helpers.md{
+                grid-area: home-img;
+            }    
+
+        @include helpers.lg{
+            grid-area: home-img;
+        }
+
+        @include helpers.xl{
+        grid-area: home-img;
+        max-width: 50%;
+        margin: 0 auto;
+        }   
+    }
 }
 

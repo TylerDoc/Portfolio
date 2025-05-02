@@ -390,6 +390,28 @@ textarea {
 ============= */
 #home {
   background-color: var(--lightgrey);
+  padding: 56px 24px;
+}
+#home img {
+  border-radius: 5%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #home img {
+    grid-area: home-img;
+  }
+}
+@media (min-width: 992px) {
+  #home img {
+    grid-area: home-img;
+  }
+}
+@media (min-width: 1200px) {
+  #home img {
+    grid-area: home-img;
+    max-width: 50%;
+    margin: 0 auto;
+  }
 }
 
 /* =============
@@ -397,17 +419,61 @@ textarea {
 ============= */
 #about {
   background-color: var(--lightgrey);
+  padding: 56px 24px;
+}
+#about img {
+  width: 100%;
+  border-radius: 5%;
+}
+@media (min-width: 768px) {
+  #about img {
+    grid-area: home-img;
+  }
+}
+@media (min-width: 992px) {
+  #about img {
+    grid-area: home-img;
+  }
+}
+@media (min-width: 1200px) {
+  #about img {
+    grid-area: home-img;
+    max-width: 50%;
+    margin: 0 auto;
+  }
 }
 
 /* =============
     resume
 ============= */
+#resume {
+  background-color: var(--lightgrey);
+  padding: 56px 24px;
+}
+
 /* =============
     projects
 ============= */
+#projects {
+  background-color: var(--lightgrey);
+  padding: 56px 24px;
+}
+
 /* =============
     associations
 ============= */
+#associations {
+  background-color: var(--lightgrey);
+  padding: 56px 24px;
+}
+
 /* =============
     contact
 ============= */
+#contact {
+  background-color: var(--lightgrey);
+  padding: 56px 24px;
+}
+#contact .contact-list {
+  list-style-type: none;
+}

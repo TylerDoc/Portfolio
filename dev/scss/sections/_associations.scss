@@ -2,3 +2,8 @@
     associations
 ============= */
 @use "../helpers";
+
+#associations{
+    background-color: var(--lightgrey);
+    padding: 56px 24px;
+}
