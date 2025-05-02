@@ -316,6 +316,14 @@ template {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --ghost: #f0faff;
+  --grey: #9090A7;
+  --nightblue: #060640;
+  --aqua: #00E5CC;
+  --snowdrop: #F9FDFF;
+  --lilywhite: #ECF9FF;
+  --jaguar: #000020;
+  --lightgrey: #f5f5f5;
 }
 
 /* ---------------- Font Sizing ---------------- */
@@ -324,12 +332,30 @@ html {
 }
 
 /* ---------------- Media Queries ---------------- */
+.img-scaler {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-title {
+  color: var(--nightblue);
+  font-size: 3.125rem;
+  line-height: 4.0625rem;
+}
+
 /* =============
     Buttons
 ============= */
+a {
+  text-decoration: none;
+}
+
 /* =============
     Forms
 ============= */
@@ -358,4 +384,30 @@ textarea {
 ============= */
 /* =============
     Footer
+============= */
+/* =============
+    home
+============= */
+#home {
+  background-color: var(--lightgrey);
+}
+
+/* =============
+    About
+============= */
+#about {
+  background-color: var(--lightgrey);
+}
+
+/* =============
+    resume
+============= */
+/* =============
+    projects
+============= */
+/* =============
+    associations
+============= */
+/* =============
+    contact
 ============= */
