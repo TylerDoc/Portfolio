@@ -8,4 +8,161 @@
     padding: 56px 24px;
     font-size: helpers.rem-calc(14);
     font-weight: 600;
+
+    display: flex; // Enable flexbox
+    flex-direction: column; // Stack items vertically
+    justify-content: center; // Center items vertically
+    align-items: center; // Center items horizontally
+    text-align: center;
+    
+    ul{
+        margin: 0; // Remove default margin
+        padding: 0;
+    }
+    .asso1{
+        list-style-type: none;
+
+        // h2{
+        //     display: inline-block;
+        //     margin-bottom: 8px; 
+        // }
+
+        img {
+            padding-top: 8px;
+            max-width: 100%;
+            border-radius: 10%;
+            width: 20%; // Ensures the image doesn't exceed its container width
+            height: auto;   // Maintains the aspect ratio
+            display: block; // Removes inline spacing issues
+            // margin-left: 0; 
+            margin: 0 auto;
+
+            @include helpers.sm{
+                width: 25%;
+            }
+
+            @include helpers.md{
+                width: 20%;
+                // grid-template-columns: 50% auto;
+            }
+            @include helpers.lg {
+                width: 15%; // Reduce size for large screens
+            }
+
+            @include helpers.xl {
+                width: 10%; // Further reduce size for extra-large screens
+            }
+        }
+    }
+
+    .asso2{
+        list-style-type: none;
+
+        img {
+            padding-top: 8px;
+            max-width: 100%;
+            border-radius: 10%; // Ensures the image doesn't exceed its container width
+            width: 30%;
+            height: 50%;
+            height: auto;   // Maintains the aspect ratio
+            display: block; // Removes inline spacing issues
+            // margin-left: 0; 
+            margin: 0 auto;
+
+            @include helpers.sm{
+                width: 25%;
+            }
+
+            @include helpers.md{
+                width: 20%;
+                // grid-template-columns: 50% auto;
+            }
+            @include helpers.lg {
+                width: 15%; // Reduce size for large screens
+            }
+
+            @include helpers.xl {
+                width: 10%; // Further reduce size for extra-large screens
+            }
+        }
+    }
+
+    .asso3{
+        list-style-type: none;
+        display: flex; // Use flexbox for layout
+        flex-direction: column;
+
+        h2 {
+            margin-right: 16px; 
+        }
+
+        img {
+            padding-top: 8px;
+            max-width: 100%;
+            border-radius: 10%;
+            width: 20%;
+            height: auto;   // Maintains the aspect ratio   
+            display: block; 
+            // margin-left: 0; 
+            margin: 0 auto;
+
+            @include helpers.sm{
+                width: 25%;
+            }
+
+            @include helpers.md{
+                width: 20%;
+                // grid-template-columns: 50% auto;
+            }
+            @include helpers.lg {
+                width: 15%; // Reduce size for large screens
+            }
+
+            @include helpers.xl {
+                width: 10%; // Further reduce size for extra-large screens
+            }
+        }
+
+        p{
+             // Center-align the text
+            margin-top: 8px;
+        }
+    }
+
+    .asso4{
+        list-style-type: none;
+
+        img {
+            padding-top: 8px;
+            max-width: 100%;
+            border-radius: 10%;
+            width: 20%;
+            height: auto;   // Maintains the aspect ratio
+            display: block; // Removes inline spacing issues
+            // margin-left: 0;
+            margin: 0 auto; 
+
+            @include helpers.sm{
+                width: 25%;
+            }
+
+            @include helpers.md{
+                width: 20%;
+                // grid-template-columns: 50% auto;
+            }
+            @include helpers.lg {
+                width: 15%; // Reduce size for large screens
+            }
+
+            @include helpers.xl {
+                width: 10%; // Further reduce size for extra-large screens
+            }
+        }
+
+
+        @include helpers.sm{
+            display: grid;
+            // grid-template-columns: 50% auto;
+        }
+    }
 }

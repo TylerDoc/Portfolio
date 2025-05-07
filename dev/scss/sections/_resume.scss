@@ -8,4 +8,37 @@
     padding: 56px 24px;
     font-size: helpers.rem-calc(14);
     font-weight: 600;
+
+    .resume-intro{
+        display: flex; // Enable flexbox
+        flex-direction: column; // Stack items vertically
+        justify-content: center; // Center items vertically
+        align-items: center; // Center items horizontally
+        text-align: center; // Center-align text inside the container
+
+        h4{
+            margin-top: 0px;
+        }
+
+        a{
+            margin-bottom: 8px;
+        }
+    }
+    // display: flex; // Enable flexbox
+    // flex-direction: column; // Stack items vertically
+    // justify-content: center; // Center items vertically
+    // align-items: center; // Center items horizontally
+    // text-align: center; // Center-align text inside the container
+
+    // ul {
+    //     list-style-position: outside; // Ensure bullet points are inside the text
+    //     margin: 0; // Remove default margin
+    //     padding: 0; // Remove default padding
+    //     text-align: left; // Center-align the list items
+    // }
+
+    // li {
+    //     margin-bottom: 8px; // Add spacing between list items
+    // }
+    
 }

@@ -9,8 +9,47 @@
     font-size: helpers.rem-calc(14);
     font-weight: 600;
 
+    display: flex; // Enable flexbox
+    flex-direction: column; // Stack items vertically
+    justify-content: center; // Center items vertically
+    align-items: center; // Center items horizontally
+    text-align: center;
+
 
     .contact-list{
         list-style-type: none;
+        padding-top: 8px;
+        margin: 0; // Remove default margin
+        padding: 0; // Remove default padding
+        text-align: center;
+    }
+
+    .email1{
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .email2{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .link,
+    .fb {
+        display: inline-block; // Ensures the images are inline
+        margin-right: 12px; // Adds spacing between the images
+
+        a img {
+            border-radius: 10%;
+            width: 50px; // Set a smaller fixed width for the images
+            height: auto; // Maintain aspect ratio
+            vertical-align: middle; // Align the images vertically
+        }
+
+    }
+    
+    .fb a img {
+        width: 53px; // Make the Facebook image slightly larger
     }
 }

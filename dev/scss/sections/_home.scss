@@ -9,6 +9,12 @@
     font-size: helpers.rem-calc(14);
     font-weight: 600;
 
+    display: flex; // Enable flexbox
+    flex-direction: column; // Stack items vertically
+    justify-content: center; // Center items vertically
+    align-items: center; // Center items horizontally
+    text-align: center;
+
     @include helpers.sm{
         padding: 56px 24px;
     }
@@ -22,36 +28,42 @@
     }
 
     @include helpers.xl{
-        padding: 56px 24px;
+        padding: 56px 24px; 
     }
     
 
     img{
         border-radius: 5%;
-        width: 50%;
+        max-width: 100%;
+        width: 40%; // Adjust the size of the image (e.g., 40% of its container)
+        height: auto; // Maintains the aspect ratio
+        display: block; // Removes inline spacing issues
+        margin: 0 auto;
+
 
         @include helpers.sm{
             grid-area: home-img;
             max-width: 50%;
+            width: 50%;
             // padding: 200px 200px;
         }
         
 
         @include helpers.md{
             grid-area: home-img;
-            max-width: 50%;
+            max-width: 35%;
             // padding: 200px 200px;
         }   
          
 
         @include helpers.lg{
             grid-area: home-img;
-            max-width: 50%;
+            max-width: 30%;
         }
 
         @include helpers.xl{
             grid-area: home-img;
-            max-width: 50%;
+            max-width: 25%;
             // margin: 0 auto;
         }   
     }

@@ -8,4 +8,22 @@
     padding: 56px 24px;
     font-size: helpers.rem-calc(14);
     font-weight: 600;
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+
+    ul {
+        list-style-position: outside; 
+        margin: 0; 
+        padding: 0; 
+        text-align: left; 
+    }
+
+    li {
+        margin-bottom: 8px; 
+    }
+
 }
