@@ -3,6 +3,23 @@
   "version": "1.0.0",
   "description": "This is a dummy package.json file created by Prepros to manage packages with NPM. You can edit this file to add your own information.",
   "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
     "aos": "^2.3.4"
-  }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerDoc/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TylerDoc/Portfolio/issues"
+  },
+  "homepage": "https://github.com/TylerDoc/Portfolio#readme"
 }
