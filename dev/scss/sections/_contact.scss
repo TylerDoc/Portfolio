@@ -14,6 +14,8 @@
     justify-content: center; // Center items vertically
     align-items: center; // Center items horizontally
     text-align: center;
+    border: 1px solid var(--black);
+    border-radius: 100px;
 
 
     .contact-list{

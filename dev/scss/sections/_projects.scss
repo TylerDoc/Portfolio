@@ -13,7 +13,8 @@
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    text-align: center; 
+    text-align: center; border: 1px solid var(--black);
+    border-radius: 100px;
 
     ul {
         list-style-position: outside; 

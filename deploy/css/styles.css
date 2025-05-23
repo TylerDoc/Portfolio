@@ -407,6 +407,8 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  border: 1px solid var(--black);
+  border-radius: 100px;
 }
 @media (min-width: 576px) {
   #home {
@@ -484,6 +486,8 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  border: 1px solid var(--black);
+  border-radius: 100px;
 }
 @media (min-width: 576px) {
   #about {
@@ -551,6 +555,8 @@ textarea {
   max-width: 100vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 1px solid var(--black);
+  border-radius: 100px;
 }
 #resume .resume-intro {
   display: -webkit-box;
@@ -597,6 +603,8 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  border: 1px solid var(--black);
+  border-radius: 100px;
 }
 #projects ul {
   list-style-position: outside;
@@ -630,6 +638,8 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  border: 1px solid var(--black);
+  border-radius: 100px;
 }
 #associations ul {
   margin: 0;
@@ -806,6 +816,8 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  border: 1px solid var(--black);
+  border-radius: 100px;
 }
 #contact .contact-list {
   list-style-type: none;
