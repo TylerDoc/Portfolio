@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){!function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"red";document.querySelectorAll("h1").forEach((function(n){return n.style.color=e}))}("black")}));
