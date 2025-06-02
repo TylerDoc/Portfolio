@@ -10,15 +10,15 @@
     font-weight: 600;
     
 
-    display: flex; // Enable flexbox
-    flex-direction: column; // Stack items vertically
-    justify-content: center; // Center items vertically
-    align-items: center; // Center items horizontally
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     text-align: center;
     border: 1px solid var(--black);
     border-radius: 100px;
 
-    max-width: 1000px;    // Set your desired max width
+    max-width: 1000px;    
     margin: 16px auto;  
 
     @include helpers.sm{
@@ -41,9 +41,9 @@
     img{
         border-radius: 5%;
         max-width: 100%;
-        width: 40%; // Adjust the size of the image (e.g., 40% of its container)
-        height: auto; // Maintains the aspect ratio
-        display: block; // Removes inline spacing issues
+        width: 40%; 
+        height: auto; 
+        display: block; 
         margin: 0 auto;
 
 

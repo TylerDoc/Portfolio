@@ -37,84 +37,8 @@
             padding-top: 8px;
             max-width: 100%;
             border-radius: 10%;
-            width: 20%; // Ensures the image doesn't exceed its container width
-            height: auto;   // Maintains the aspect ratio
-            display: block; // Removes inline spacing issues
-            // margin-left: 0; 
-            margin: 0 auto;
-
-            @include helpers.sm{
-                width: 25%;
-            }
-
-            @include helpers.md{
-                width: 20%;
-                // grid-template-columns: 50% auto;
-            }
-            @include helpers.lg {
-                width: 15%; // Reduce size for large screens
-            }
-
-            @include helpers.xl {
-                width: 10%; // Further reduce size for extra-large screens
-            }
-        }
-    }
-
-    .asso2{
-        list-style-type: none;
-
-        img {
-            padding-top: 8px;
-            max-width: 100%;
-            border-radius: 10%; // Ensures the image doesn't exceed its container width
-            width: 30%;
-            height: 50%;
-            height: auto;   // Maintains the aspect ratio
-            display: block; // Removes inline spacing issues
-            // margin-left: 0; 
-            margin: 0 auto;
-
-            @include helpers.sm{
-                width: 25%;
-            }
-
-            @include helpers.md{
-                width: 20%;
-                // grid-template-columns: 50% auto;
-            }
-            @include helpers.lg {
-                width: 15%; // Reduce size for large screens
-            }
-
-            @include helpers.xl {
-                width: 10%; // Further reduce size for extra-large screens
-            }
-        }
-    }
-
-    .asso3{
-        list-style-type: none;
-        display: flex; // Use flexbox for layout
-        flex-direction: column;
-
-        a {
-            display: inline;   // Ensures the link only covers the image
-            padding: 0;
-            margin: 0;
-            line-height: 0;    // Removes extra vertical clickable area
-        }
-
-        h2 {
-            margin-right: 16px; 
-        }
-
-        img {
-            padding-top: 8px;
-            max-width: 100%;
-            border-radius: 10%;
-            width: 20%;
-            height: auto;   // Maintains the aspect ratio   
+            width: 20%; 
+            height: auto;   
             display: block; 
             // margin-left: 0; 
             margin: 0 auto;
@@ -128,16 +52,90 @@
                 // grid-template-columns: 50% auto;
             }
             @include helpers.lg {
-                width: 15%; // Reduce size for large screens
+                width: 15%; 
             }
 
             @include helpers.xl {
-                width: 10%; // Further reduce size for extra-large screens
+                width: 10%; 
+            }
+        }
+    }
+
+    .asso2{
+        list-style-type: none;
+
+        img {
+            padding-top: 8px;
+            max-width: 100%;
+            border-radius: 10%; 
+            width: 30%;
+            height: 50%;
+            height: auto;   
+            display: block; 
+            margin: 0 auto;
+
+            @include helpers.sm{
+                width: 25%;
+            }
+
+            @include helpers.md{
+                width: 20%;
+                
+            }
+            @include helpers.lg {
+                width: 15%; 
+            }
+
+            @include helpers.xl {
+                width: 10%; 
+            }
+        }
+    }
+
+    .asso3{
+        list-style-type: none;
+        display: flex; 
+        flex-direction: column;
+
+        a {
+            display: inline;   
+            padding: 0;
+            margin: 0;
+            line-height: 0;    
+        }
+
+        h2 {
+            margin-right: 16px; 
+        }
+
+        img {
+            padding-top: 8px;
+            max-width: 100%;
+            border-radius: 10%;
+            width: 20%;
+            height: auto;   
+            display: block; 
+            // margin-left: 0; 
+            margin: 0 auto;
+
+            @include helpers.sm{
+                width: 25%;
+            }
+
+            @include helpers.md{
+                width: 20%;
+                
+            }
+            @include helpers.lg {
+                width: 15%; 
+            }
+
+            @include helpers.xl {
+                width: 10%; 
             }
         }
 
         p{
-             // Center-align the text
             margin-top: 8px;
         }
     }
@@ -150,8 +148,8 @@
             max-width: 100%;
             border-radius: 10%;
             width: 20%;
-            height: auto;   // Maintains the aspect ratio
-            display: block; // Removes inline spacing issues
+            height: auto;   
+            display: block; 
             // margin-left: 0;
             margin: 0 auto; 
 
@@ -161,14 +159,13 @@
 
             @include helpers.md{
                 width: 20%;
-                // grid-template-columns: 50% auto;
             }
             @include helpers.lg {
-                width: 15%; // Reduce size for large screens
+                width: 15%; 
             }
 
             @include helpers.xl {
-                width: 10%; // Further reduce size for extra-large screens
+                width: 10%; 
             }
         }
 

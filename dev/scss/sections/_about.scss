@@ -17,7 +17,7 @@
     border: 1px solid var(--black);
     border-radius: 100px;
 
-    max-width: 1000px;    // Set your desired max width
+    max-width: 1000px;    
     margin: 16px auto; 
 
     @include helpers.sm{
@@ -40,8 +40,8 @@
     img{
         border-radius: 5%;
         max-width: 100%;
-        width: 50%; // Adjust the size of the image 
-        height: auto; // Maintains the aspect ratio
+        width: 50%; 
+        height: auto; 
         display: block;
         margin: 0 auto;
 

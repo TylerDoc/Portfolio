@@ -9,20 +9,20 @@
     font-size: helpers.rem-calc(14);
     font-weight: 600;
     // width: 100%;
-    // max-width: 100vw; // Prevents the section from exceeding the viewport width
+    // max-width: 100vw; 
     box-sizing: border-box;
     border: 1px solid var(--black);
     border-radius: 100px;
     
-    max-width: 1050px;    // Set your desired max width
+    max-width: 1050px;    
     margin: 16px auto; 
 
     .resume-intro{
-        display: flex; // Enable flexbox
-        flex-direction: column; // Stack items vertically
-        justify-content: center; // Center items vertically
-        align-items: center; // Center items horizontally
-        text-align: center; // Center-align text inside the container
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
 
         h4{
             margin-top: 0px;
@@ -32,21 +32,4 @@
             margin-bottom: 8px;
         }
     }
-    // display: flex; // Enable flexbox
-    // flex-direction: column; // Stack items vertically
-    // justify-content: center; // Center items vertically
-    // align-items: center; // Center items horizontally
-    // text-align: center; // Center-align text inside the container
-
-    // ul {
-    //     list-style-position: outside; // Ensure bullet points are inside the text
-    //     margin: 0; // Remove default margin
-    //     padding: 0; // Remove default padding
-    //     text-align: left; // Center-align the list items
-    // }
-
-    // li {
-    //     margin-bottom: 8px; // Add spacing between list items
-    // }
-    
 }
