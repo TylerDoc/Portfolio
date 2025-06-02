@@ -4,7 +4,7 @@ function changeHeadingColors(color = "red") {
   headings.forEach(h => h.style.color = color);
 }
 
-// Optional: call it here if you want it to run on page load
+
 document.addEventListener('DOMContentLoaded', () => {
-  changeHeadingColors("black");
+  changeHeadingColors("#000435");
 });
