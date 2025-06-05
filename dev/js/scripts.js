@@ -1,5 +1,5 @@
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css'; 
 // ..
 AOS.init(); 
 
@@ -8,4 +8,15 @@ function changeHeadingColors(color = "red") {
   headings.forEach(h => h.style.color = color);
 }
 
-changeHeadingColors("red");
+// console.log("JS is working");
+document.addEventListener('DOMContentLoaded', () => {
+  const burger = document.getElementById('burger');
+  const nav = document.getElementById('nav-container');
+
+  if (burger && nav) {
+    burger.addEventListener('click', () => {
+      nav.classList.toggle('active');
+      burger.classList.toggle('active');
+    });
+  }
+});
