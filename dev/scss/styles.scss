@@ -91,24 +91,28 @@
 
 #burger {
   transition: all 0.3s ease;
+  cursor: pointer;
 
   #top,
   #middle-logo,
   #bottom {
     transition: all 0.3s ease;
     transform-origin: center;
+    transform-box: fill-box; // Ensures transform origin works in SVG
+    transform: none;         // Default state
+    opacity: 1;    
   }
 
   &.active {
-    #top {
+    g #top {
       transform: translateY(8px) rotate(45deg);
     }
 
-    #middle-logo {
+    g #middle-logo {
       opacity: 0;
     }
 
-    #bottom {
+    g #bottom {
       transform: translateY(-8px) rotate(-45deg);
     }
   }

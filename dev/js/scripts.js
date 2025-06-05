@@ -1,3 +1,4 @@
+// console.log("JS file loaded!");
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 // ..
@@ -10,11 +11,13 @@ function changeHeadingColors(color = "red") {
 
 // console.log("JS is working");
 document.addEventListener('DOMContentLoaded', () => {
+  const burgerContainer = document.getElementById('burger-container');
   const burger = document.getElementById('burger');
   const nav = document.getElementById('nav-container');
 
-  if (burger && nav) {
-    burger.addEventListener('click', () => {
+  if (burgerContainer && burger && nav) {
+    burgerContainer.addEventListener('click', () => {
+      console.log('Burger clicked!');
       nav.classList.toggle('active');
       burger.classList.toggle('active');
     });

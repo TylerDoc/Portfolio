@@ -937,6 +937,7 @@ textarea {
 #burger {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 #burger #top,
 #burger #middle-logo,
@@ -945,15 +946,19 @@ textarea {
   transition: all 0.3s ease;
   -webkit-transform-origin: center;
           transform-origin: center;
+  transform-box: fill-box;
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
 }
-#burger.active #top {
+#burger.active g #top {
   -webkit-transform: translateY(8px) rotate(45deg);
           transform: translateY(8px) rotate(45deg);
 }
-#burger.active #middle-logo {
+#burger.active g #middle-logo {
   opacity: 0;
 }
-#burger.active #bottom {
+#burger.active g #bottom {
   -webkit-transform: translateY(-8px) rotate(-45deg);
           transform: translateY(-8px) rotate(-45deg);
 }
